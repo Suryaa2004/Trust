@@ -1,0 +1,38 @@
+/* NavBar.css */
+
+/* Add some padding and margin to the Navbar */
+.custom-navbar {
+    padding: 10px 0;
+  }
+  
+  /* Style the Navbar Brand (Logo) */
+  .custom-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-navbar .navbar-brand img {
+    height: 40px; /* Adjust the height of the logo as needed */
+    margin-right: 10px; /* Add some margin to the right of the logo */
+  }
+  
+  /* Style the Navbar Links (Anchor Elements) */
+  .custom-navbar .navbar-nav {
+    justify-content: flex-end;
+  }
+  
+  .custom-navbar .nav-link {
+    margin-left: 15px; /* Add some margin between links */
+    font-size: 1rem; /* Adjust the font size */
+    color: #000; /* Set the text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    /* Adjust styling for smaller screens if needed */
+    .custom-navbar .navbar-nav {
+      margin-top: 10px; /* Add some margin on top of the menu items */
+    }
+  }
+  
