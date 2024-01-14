@@ -1,0 +1,36 @@
+body{
+  overflow-x: hidden;
+}
+#title{
+    background-image: url("./images/hero-banner.png");
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 767px) {
+    #title {
+      background-image: url("./images/hero-text.png");
+      
+    }
+    .heading{
+        background-color: gainsboro;
+    opacity: 75%;
+    border-radius: 20%;
+    padding: 10%;
+    }
+    
+  }
+.heading {
+    text-align: center;
+     /* padding: 30%; */
+}
+ 
+ 
+

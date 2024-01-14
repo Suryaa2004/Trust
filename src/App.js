@@ -8,6 +8,7 @@ import About from './About';
 import Contact from './Contact';
 import NoMatch from './NoMatch';
 import './App.css';
+import Homepage from './Homepage';
 function App() {
   return (
    <>
@@ -15,7 +16,7 @@ function App() {
         <div>
            <NavBar/>
            <Routes>
-          <Route path='/home' element={<Home/>}></Route>
+          <Route path='/' element={<Homepage/>}></Route>
           <Route path='/about' element={<About/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
           <Route element={<NoMatch/>}></Route>

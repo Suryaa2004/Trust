@@ -1,0 +1,29 @@
+.introimage{
+width: 620px;
+height: auto;
+}
+.intro-content{
+    
+    border: 3px solid gold;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.intro-content:hover{
+    transform: scale(1.03);
+    background-color: gold;
+    font-size: large;
+}
+.intro-column{
+    padding: 2rem;
+    margin: auto;
+}
+.intro-heading{
+    text-align: center;
+}
+@media only screen and (max-width: 767px){
+    .introimage{
+        width: 380px;
+
+    }
+}
