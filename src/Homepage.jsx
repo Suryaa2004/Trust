@@ -1,15 +1,26 @@
 import React from "react";
+import NavBar from "./NavBar";
 import Home from "./Home";
 import Intro from "./Intro";
-function Homepage()
-{
-    return(
+import Volunteer from "./Volunteer";
+import Contact from "./Contact";
+function Homepage() {
+    return (
         <>
-        <Home/>
-        <Intro/>
+
+            {/* <NavBar/> */}
+            <Home />
+            <Intro />
+            <div id="volunteer">
+                <Volunteer />
+            </div>
+            <div id="contact">
+                <Contact />
+            </div>
         </>
     )
-   
+
 }
 
 export default Homepage;
+

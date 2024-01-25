@@ -27,6 +27,13 @@
     color: #000; /* Set the text color */
     text-decoration: none; /* Remove underline */
   }
+  .title
+  {
+    margin-left:auto ;
+  }
+  
+
+
   
   /* Media Query for smaller screens */
   @media (max-width: 768px) {
